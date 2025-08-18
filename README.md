@@ -62,6 +62,7 @@ private:
 > </details>
 > 
 > **🔗 [View wxWidgets Contributions](https://github.com/search?q=repo%3AwxWidgets%2FwxWidgets+damien+ruscoe&type=issues)**
+> 
 >   *Note: Due to the project's migration from Trac to GitHub, direct commit history may not fully reflect the scope of contributions. The issue reports represent significant investigative work and technical analysis that contributed to framework stability and reliability.*
 
 ---
@@ -114,6 +115,7 @@ private:
 > </details>
 > 
 > **🔗 [View Kodi Contributions](https://github.com/xbmc/xbmc/issues?q=author%3Adamienruscoe)**
+> 
 >   *Contributions span core system components including filesystem operations, database interactions, network protocols, and user interface systems. Work demonstrates proficiency in C++, cross-platform development, and large-scale software architecture.*
 
 ---
