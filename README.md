@@ -4,12 +4,19 @@
 
 **Passionate about performance optimization, cross-platform development, and multimedia software architecture**
 
-- 🔭 **Currently working on:** Kodi media center performance improvements
-- 🌱 **Currently learning:** Data Oriented Design patterns
-- 👯 **Looking to collaborate on:** C++ projects, open source contributions
-- 📫 **Reach me at:** damien.ruscoe@gmail.com
-- 😄 **Pronouns:** He/Him
+```cpp
+class DamienRuscoe : public SeniorDeveloper {
+public:
+    std::string current_focus = "Kodi media center performance improvements";
+    std::string learning = "Data Oriented Design patterns";
+    std::vector<std::string> interests = {"C++", "Python", "Linux", "Open source"};
+    std::string collaboration = "Always open to C++ projects & OSS contributions";
+    std::string pronouns = "He/Him";
 
+private:
+    std::queue<std::string> todo_list;
+};
+```
 ---
 
 ### 🏆 Open Source Impact
@@ -154,6 +161,8 @@
 ---
 
 ### 🌐 Connect With Me
+
+*Always excited to discuss C++, performance optimization, or open source projects*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/damien-ruscoe) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:damien.ruscoe@gmail.com)
 
