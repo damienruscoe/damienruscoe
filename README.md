@@ -6,7 +6,7 @@
 - 📫 How to reach me: damien.ruscoe@gmail.com
 - 😄 Pronouns: He/Him
 
-# 📊 GitHub Stats:
+## 📊 GitHub Stats:
 
 <a href="https://github.com/anuraghazra/convoychat">
   <img height=200 align="center" src="https://nirzak-streak-stats.vercel.app/?user=damienruscoe&theme=dark&hide_border=true&mode=weekly&card_width=50%&hide_longest_streak=true" />
