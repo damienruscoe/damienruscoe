@@ -15,101 +15,101 @@
 ### 🏆 Open Source Impact
 
 #### 🏗️ wxWidgets - Cross-Platform GUI Framework
-*One of the most established GUI frameworks, powering applications used by thousands of developers worldwide*
-
-**🎯 Impact:** Identified and resolved critical cross-platform issues affecting framework stability
-
-<details>
-<summary><strong>📊 Contribution Overview</strong></summary>
-
-  As an active contributor to **wxWidgets** - one of the most established cross-platform GUI frameworks - I have identified, reported, and helped resolve critical issues that impact thousands of developers worldwide. My contributions demonstrate deep technical understanding of cross-platform development challenges and GUI framework architecture.
-
-
-  **🔍 Issues Identified & Reported:** 10+ critical issues  
-  **🌐 Platforms Covered:** Windows (wxMSW), Linux (wxGTK), Cross-platform  
-  **⚙️ Components:** GUI Controls, Event Handling, Layout Management, Styling  
-  **📅 Active Period:** 2011-2016 (5+ years of consistent contributions)
-
-  ### 🎯 Key Technical Contributions
-
-  #### **Critical Bug Reports & Analysis**
-  - **🔴 High-Priority Issues:** Identified infinite event loops in scroll handling systems
-  - **🖥️ Cross-Platform Inconsistencies:** Documented and reported platform-specific behavior differences
-  - **🎨 GUI Component Issues:** Resolved animation effects, checkbox labeling, and list control problems
-  - **📐 Layout Management:** Proposed enhancements to FlexGridSizer with new expansion flags
-
-  #### **Quality Assurance Impact**
-  - **✅ Resolution Rate:** Multiple issues marked as "fixed" - demonstrating actionable, well-researched reports
-  - **🔧 Technical Depth:** Reports included detailed reproduction steps, environment details, and root cause analysis
-  - **📋 Documentation Quality:** Comprehensive issue descriptions that enabled maintainers to quickly understand and resolve problems
-
-  ### 🚀 Professional Value
-
-  **Problem-Solving Expertise:** Ability to isolate complex cross-platform issues in large codebases  
-  **Quality Focus:** Track record of identifying edge cases and inconsistencies that impact user experience  
-  **Technical Communication:** Clear documentation of technical issues for collaborative resolution  
-  **Open Source Contribution:** Demonstrated commitment to improving widely-used development tools
-
-  ### 📚 Technical Context
-
-  *Note: Due to the project's migration from Trac to GitHub, direct commit history may not fully reflect the scope of contributions. The issue reports represent significant investigative work and technical analysis that contributed to framework stability and reliability.*
-
-</details>
-
-**🔗 [View wxWidgets Contributions](https://github.com/search?q=repo%3AwxWidgets%2FwxWidgets+damien+ruscoe&type=issues)**
+> *One of the most established GUI frameworks, powering applications used by thousands of developers worldwide*
+> 
+> **🎯 Impact:** Identified and resolved critical cross-platform issues affecting framework stability
+> 
+> <details>
+> <summary><strong>📊 Contribution Overview</strong></summary>
+> 
+>   As an active contributor to **wxWidgets** - one of the most established cross-platform GUI frameworks - I have identified, reported, and helped resolve critical issues that impact thousands of developers worldwide. My contributions demonstrate deep technical understanding of cross-platform development challenges and GUI framework architecture.
+> 
+> 
+>   **🔍 Issues Identified & Reported:** 10+ critical issues  
+>   **🌐 Platforms Covered:** Windows (wxMSW), Linux (wxGTK), Cross-platform  
+>   **⚙️ Components:** GUI Controls, Event Handling, Layout Management, Styling  
+>   **📅 Active Period:** 2011-2016 (5+ years of consistent contributions)
+> 
+>   ### 🎯 Key Technical Contributions
+> 
+>   #### **Critical Bug Reports & Analysis**
+>   - **🔴 High-Priority Issues:** Identified infinite event loops in scroll handling systems
+>   - **🖥️ Cross-Platform Inconsistencies:** Documented and reported platform-specific behavior differences
+>   - **🎨 GUI Component Issues:** Resolved animation effects, checkbox labeling, and list control problems
+>   - **📐 Layout Management:** Proposed enhancements to FlexGridSizer with new expansion flags
+> 
+>   #### **Quality Assurance Impact**
+>   - **✅ Resolution Rate:** Multiple issues marked as "fixed" - demonstrating actionable, well-researched reports
+>   - **🔧 Technical Depth:** Reports included detailed reproduction steps, environment details, and root cause analysis
+>   - **📋 Documentation Quality:** Comprehensive issue descriptions that enabled maintainers to quickly understand and resolve problems
+> 
+>   ### 🚀 Professional Value
+> 
+>   **Problem-Solving Expertise:** Ability to isolate complex cross-platform issues in large codebases  
+>   **Quality Focus:** Track record of identifying edge cases and inconsistencies that impact user experience  
+>   **Technical Communication:** Clear documentation of technical issues for collaborative resolution  
+>   **Open Source Contribution:** Demonstrated commitment to improving widely-used development tools
+> 
+>   ### 📚 Technical Context
+> 
+>   *Note: Due to the project's migration from Trac to GitHub, direct commit history may not fully reflect the scope of contributions. The issue reports represent significant investigative work and technical analysis that contributed to framework stability and reliability.*
+> 
+> </details>
+> 
+> **🔗 [View wxWidgets Contributions](https://github.com/search?q=repo%3AwxWidgets%2FwxWidgets+damien+ruscoe&type=issues)**
 
 ---
 
 #### 🎬 Kodi - Open Source Media Center
-*World's most popular open-source media center software with millions of users globally*
-
-**🎯 Impact:** 25+ contributions including performance optimizations and architectural improvements
-
-<details>
-<summary><strong>📊 Contribution Overview</strong></summary>
-
-  As an active contributor to **Kodi (XBMC)** - the world's most popular open-source media center software - I have made significant contributions spanning code optimization, bug fixes, and architectural improvements. My work directly impacts millions of users across multiple platforms and demonstrates expertise in multimedia software development and performance optimization.
-
-  **🔍 Issues & Pull Requests:** 25+ contributions  
-  **🌐 Platforms Covered:** Cross-platform media center development  
-  **⚙️ Components:** FileSystem, Database, Network, CURL, GUI, System Components  
-  **📅 Active Period:** 2024-2025 (Ongoing active development)  
-  **🏷️ Project Version:** Contributing to v22 "Piers" release cycle
-
-  ### 🎯 Key Technical Contributions
-
-  #### **Performance & Optimization**
-  - **🚀 Database Optimization:** Eliminated redundant string copies in database queries for improved performance
-  - **📁 Filesystem Performance:** Refactored directory handling and reduced expensive CURL object constructions
-  - **🔧 Code Efficiency:** Implemented regex compilation caching to avoid hot path performance bottlenecks
-  - **🧹 Memory Management:** Factored out common code patterns to reduce redundant iterations
-
-  #### **Bug Fixes & System Reliability**
-  - **🔗 URL Handling:** Fixed inconsistencies in Windows drive path handling and filename extraction
-  - **🌐 Network Stack:** Resolved DNS cache lookup failures affecting testing infrastructure
-  - **📋 Archive Processing:** Corrected RAR file encoding to maintain consistency with other archive formats
-  - **🧪 Test Infrastructure:** Enhanced unit testing capabilities for core components
-
-  #### **Code Quality & Architecture**
-  - **♻️ Refactoring:** Modularized large functions into smaller, maintainable components
-  - **🏗️ Architecture:** Improved interfaces for content type handling and credential management
-  - **📚 Documentation:** Added comprehensive test coverage for directory caching functionality
-  - **🔧 Technical Debt:** Removed redundant code and improved overall code maintainability
-
-  ### 🚀 Professional Value
-
-  **Media Software Expertise:** Deep understanding of multimedia framework architecture and cross-platform development  
-  **Performance Engineering:** Proven ability to identify and resolve performance bottlenecks in complex systems  
-  **Quality Assurance:** Strong focus on testing, code quality, and system reliability  
-  **Open Source Leadership:** Consistent high-quality contributions to major open-source project
-
-  ### 📚 Technical Context
-
-  *Contributions span core system components including filesystem operations, database interactions, network protocols, and user interface systems. Work demonstrates proficiency in C++, cross-platform development, and large-scale software architecture.*
-
-</details>
-
-**🔗 [View Kodi Contributions](https://github.com/xbmc/xbmc/issues?q=author%3Adamienruscoe)**
+> *World's most popular open-source media center software with millions of users globally*
+> 
+> **🎯 Impact:** 25+ contributions including performance optimizations and architectural improvements
+> 
+> <details>
+> <summary><strong>📊 Contribution Overview</strong></summary>
+> 
+>   As an active contributor to **Kodi (XBMC)** - the world's most popular open-source media center software - I have made significant contributions spanning code optimization, bug fixes, and architectural improvements. My work directly impacts millions of users across multiple platforms and demonstrates expertise in multimedia software development and performance optimization.
+> 
+>   **🔍 Issues & Pull Requests:** 25+ contributions  
+>   **🌐 Platforms Covered:** Cross-platform media center development  
+>   **⚙️ Components:** FileSystem, Database, Network, CURL, GUI, System Components  
+>   **📅 Active Period:** 2024-2025 (Ongoing active development)  
+>   **🏷️ Project Version:** Contributing to v22 "Piers" release cycle
+> 
+>   ### 🎯 Key Technical Contributions
+> 
+>   #### **Performance & Optimization**
+>   - **🚀 Database Optimization:** Eliminated redundant string copies in database queries for improved performance
+>   - **📁 Filesystem Performance:** Refactored directory handling and reduced expensive CURL object constructions
+>   - **🔧 Code Efficiency:** Implemented regex compilation caching to avoid hot path performance bottlenecks
+>   - **🧹 Memory Management:** Factored out common code patterns to reduce redundant iterations
+> 
+>   #### **Bug Fixes & System Reliability**
+>   - **🔗 URL Handling:** Fixed inconsistencies in Windows drive path handling and filename extraction
+>   - **🌐 Network Stack:** Resolved DNS cache lookup failures affecting testing infrastructure
+>   - **📋 Archive Processing:** Corrected RAR file encoding to maintain consistency with other archive formats
+>   - **🧪 Test Infrastructure:** Enhanced unit testing capabilities for core components
+> 
+>   #### **Code Quality & Architecture**
+>   - **♻️ Refactoring:** Modularized large functions into smaller, maintainable components
+>   - **🏗️ Architecture:** Improved interfaces for content type handling and credential management
+>   - **📚 Documentation:** Added comprehensive test coverage for directory caching functionality
+>   - **🔧 Technical Debt:** Removed redundant code and improved overall code maintainability
+> 
+>   ### 🚀 Professional Value
+> 
+>   **Media Software Expertise:** Deep understanding of multimedia framework architecture and cross-platform development  
+>   **Performance Engineering:** Proven ability to identify and resolve performance bottlenecks in complex systems  
+>   **Quality Assurance:** Strong focus on testing, code quality, and system reliability  
+>   **Open Source Leadership:** Consistent high-quality contributions to major open-source project
+> 
+>   ### 📚 Technical Context
+> 
+>   *Contributions span core system components including filesystem operations, database interactions, network protocols, and user interface systems. Work demonstrates proficiency in C++, cross-platform development, and large-scale software architecture.*
+> 
+> </details>
+> 
+> **🔗 [View Kodi Contributions](https://github.com/xbmc/xbmc/issues?q=author%3Adamienruscoe)**
 
 ---
 
