@@ -166,7 +166,14 @@ private:
 
 *Always excited to discuss C++, performance optimization, or open source projects*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/damien-ruscoe) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:damien.ruscoe@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=xbox&logoColor=white)](https://linkedin.com/in/damien-ruscoe) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:damien.ruscoe@gmail.com)
+
+---
+
+### View my CV
+
+[![View Online](https://img.shields.io/badge/View_Online-9435D3?style=for-the-badge&logo=Read.Cv&logoColor=white)](https://htmlpreview.github.io/?https://github.com/damienruscoe/damienruscoe/blob/master/cv/cv.html)
+[![Download](https://img.shields.io/badge/Download-74D335?style=for-the-badge&logo=abdownloadmanager&logoColor=white)](https://raw.githubusercontent.com/damienruscoe/damienruscoe/master/cv/Damien%20Ruscoe.pdf)
 
 ---
 
