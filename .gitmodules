@@ -1,0 +1,3 @@
+[submodule "job-resources"]
+	path = job-resources
+	url = git@github.com:damienruscoe/job-resources.git
