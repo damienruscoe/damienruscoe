@@ -22,6 +22,7 @@
 --accent-blue: #718096;
 --text-primary: #2d3748;
 --text-secondary: #718096;
+--text-hyperlink: #7180c6;
 }
 * {
 margin: 0;
@@ -29,32 +30,30 @@ padding: 0;
 box-sizing: border-box;
 text-wrap-style: balance;
 }
+html {
+font-size: 16px;
+}
 body {
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 line-height: 1.6;
 color: var(--text-primary);
 background: #ffffff;
-font-size: 16px;
 font-weight: 400;
-max-width: 1000px;
+max-width: 62.5em;
 margin: 0 auto;
-padding: 60px 40px;
+padding: 3.75em 2.5em;
 }
 li {
 list-style-type: none;
 }
-blockquote {
-max-width: 88%;
-left: 50px;
-position: relative;
-}
 
-header#title-block-header {
-padding-bottom: 20px;
-border-bottom: 1px solid var(--border-color);
+#title-block-header {
+padding-bottom: 1.25em;
+border-bottom: 0.0625em solid;
+border-bottom-color: var(--border-color);
 }
 header h1.title {
-font-size: 42px;
+font-size: 2.625em;
 font-weight: 600;
 color: var(--primary-black) !important;
 text-transform: none !important;
@@ -64,61 +63,66 @@ margin-bottom: 0;
 line-height: 1.1em;
 }
 header .subtitle {
-font-size: 18px;
+font-size: 1.125em;
 color: var(--text-secondary);
 font-weight: 400;
 }
 header .date {
-font-size: 14px;
+font-size: 0.875em;
 color: var(--text-secondary);
 }
 
 nav#TOC {
-margin-bottom: 50px;
-padding: 24px;
-background: var(--light-gray);
-border-radius: 8px;
-border: 1px solid var(--border-color);
+margin-bottom: 3.125em;
+padding: 1.5em;
+background: #f8f9fa;
+border-radius: 0.5em;
+border: 0.0625em solid;
+border-color: var(--border-color);
 }
 nav#TOC ul {
 list-style: none;
 }
 nav#TOC>ul>li {
-margin-bottom: 12px;
+margin-bottom: 0.75em;
 }
 nav#TOC a {
 color: var(--text-primary);
 text-decoration: none;
 font-weight: 500;
-font-size: 15px;
+font-size: 0.937em;
 transition: color 0.2s ease;
 }
 nav#TOC a:hover {
 color: var(--accent-blue);
 }
 nav#TOC ul ul {
-margin-left: 20px;
-margin-top: 8px;
+margin-left: 1.25em;
+margin-top: 0.5em;
 }
 nav#TOC ul ul li {
-margin-bottom: 6px;
+margin-bottom: 0.375em;
 }
 nav#TOC ul ul a {
 font-weight: 400;
-font-size: 14px;
-color: var(--text-secondary);
+font-size: 0.875em;
+color: var(--text-hyperlink);
+}
+a {
+color: var(--text-hyperlink);
+letter-spacing: 0.02em;
 }
 body>table {
 width: 100%;
 text-align: center;
-margin-top: 30px;
-margin-bottom: 30px;
+margin-top: 1.875em;
+margin-bottom: 1.875em;
 border-collapse: collapse;
 background: white;
-border-radius: 8px;
+border-radius: 0.5em;
 overflow: hidden;
 color: var(--text-primary);
-padding: 1px;
+padding: 0.0625em;
 letter-spacing: -0.02em;
 color: var(--text-secondary);
 }
@@ -130,72 +134,77 @@ width: 33%;
 
 body>p {
 color: var(--text-secondary);
-font-size: 15px;
+font-size: 0.937em;
 }
 
 body>blockquote {
-margin-top: 12px;
-margin-bottom: 40px;
+margin-top: 0.75em;
+max-width: 88%;
+left: 3.0em;
+position: relative;
 }
 
-h1 {
-font-size: 32px;
+.life_aspect {
+font-size: 1.7em;
 font-weight: 600;
 color: var(--primary-black) !important;
 font-style: normal !important;
 text-transform: none !important;
-margin-bottom: 40px;
+margin-top: 1.2em;
+margin-bottom: 1.0em;
 letter-spacing: -0.01em;
 }
-.institution {
-font-size: 1.4em;
-font-weight: 600;
-color: var(--primary-black) !important;
-margin-bottom: 4px;
-font-style: italic;
-letter-spacing: -0.01em;
-}
+.institution,
 .institution+p {
-font-size: 16px;
+font-size: 1em;
 color: var(--text-secondary);
 font-style: italic;
 letter-spacing: -0.01em;
 }
 .institution~blockquote p:first-child {
-font-size: 16px;
+font-size: 1em;
 color: var(--text-secondary);
-margin-bottom: 0;
 font-style: italic;
-text-align: right;
 }
 .institution~blockquote {
 position: relative;
 }
 .institution~blockquote p:first-child {
-top: -40px;
+top: -2.2em;
 right: 0;
 position: absolute;
 }
+.institution {
+margin-top: 1.5em;
+margin-bottom: 0.25em;
+}
+.institution em {
+font-size: 1.3em;
+font-weight: 600;
+color: var(--primary-black) !important;
+font-style: italic;
+letter-spacing: -0.01em;
+}
 h3 {
-font-size: 18px;
+font-size: 1.125em;
 font-weight: 600;
 color: var(--primary-black) !important;
 font-style: normal !important;
-margin: 0 0 12px 0;
+margin: 0.5em 0 0.1em 0;
 letter-spacing: -0.01em;
 }
 
 blockquote {
 background: white;
-border-left: 3px solid var(--accent-blue);
-padding: 32px;
-border-radius: 0 16px 16px 0;
-border: 1px solid var(--border-color);
-border-left: 3px solid var(--accent-blue);
+padding: 1.7em;
+border-radius: 0 1em 1em 0;
+border: 0.0625em solid;
+border-left: 0.1875em solid;
+border-color: var(--border-color);
+border-left-color: var(--accent-blue);
 }
 blockquote p {
-margin-bottom: 16px;
-font-size: 15px;
+font-size: 0.937em;
 color: var(--text-primary);
 }
 blockquote p:last-child {
@@ -207,15 +216,14 @@ color: var(--primary-black);
 }
 .skillset+ul,
 .responsibilities+ul {
-margin: 12px 0;
 padding-left: 0;
 }
 .skillset+ul li,
 .responsibilities+ul li {
-margin-bottom: 4px;
-padding-left: 20px;
+margin-bottom: 0.25em;
+padding-left: 1.25em;
 position: relative;
-font-size: 15px;
+font-size: 0.937em;
 color: var(--text-primary);
 }
 .skillset+ul li::before,
@@ -230,21 +238,31 @@ color: var(--accent-blue);
 display: flex;
 font-style: italic;
 flex-wrap: wrap;
-gap: 10px;
 padding: 0;
 list-style: none;
+}
+
+
+.qualifications~ul li,
+.tech_used~ul li {
+margin-right: 0.625em;
+margin-bottom: 0.625em;
+}
+
+.qualifications~ul > *:last-child,
+.tech_used~ul > *:last-child {
+margin-right: 0;
 }
 .qualifications~ul li,
 .tech_used~ul li {
 list-style-type: none;
 display: inline-block;
-padding: 2px 16px;
-border-radius: 6px;
-font-size: 13px;
+padding: 0.125em 1em;
+border-radius: 0.375em;
+font-size: 0.8125em;
 transition: all 0.2s ease;
-margin: 0;
 line-height: 1.3em;
-border-width: 0 2px 0 2px;
+border-width: 0 0.125em 0 0.125em;
 border-style: solid;
 }
 .qualifications~ul li::before,
@@ -254,8 +272,8 @@ content: none;
 }
 .qualifications~ul li,
 .tech_used~ul li {
-background: var(--text-secondary);
 color: white;
+background-color: var(--text-secondary);
 border-color: var(--text-secondary);
 }
 .qualifications~ul li:hover,
@@ -264,93 +282,63 @@ background: transparent;
 color: var(--text-secondary);
 border-color: var(--text-secondary);
 }
-@media print {
-body {
-padding: 40px 24px;
-font-size: 15px;
-line-height: 1.3em;
-max-width: 100%;
-}
-header h1.title {
-font-size: 36px;
-margin-bottom: 10px;
-}
-header#title-block-header {
-padding-bottom: 10px;
-border: 0;
-}
-body>table {
-margin-top: 15px;
-margin-bottom: 20px;
-}
-h1 {
-font-size: 28px;
-}
-h2 {
-font-size: 22px;
-}
-blockquote {
-padding: 24px;
-}
-nav#TOC {
-padding: 20px;
-}
-}
 @media (max-width: 768px) {
 body {
-padding: 40px 24px;
-font-size: 15px;
+padding: 2.5em 1.5em;
+font-size: 0.937em;
 line-height: 1.4em;
 }
 body>blockquote {
-margin-bottom: 30px;
+margin-bottom: 1.875em;
 }
 h1 {
 margin-bottom: 25px;
 }
 header h1.title {
-font-size: 36px;
+font-size: 2.25em;
 }
 header#title-block-header {
-padding-bottom: 10px;
+padding-bottom: 0.625em;
 border: 0;
 }
 body>table {
-margin-top: 15px;
-margin-bottom: 15px;
+margin-top: 0.937em;
+margin-bottom: 0.937em;
 }
 blockquote {
 max-width: 94%;
-left: 12px;
+left: 0.75em;
 position: relative;
 }
-h1 {
-font-size: 28px;
+.qualifications~ul li,
+.tech_used~ul li {
+margin-right: 7px;
+margin-bottom: 7px;
 }
-h2 {
-font-size: 22px;
+h1 {
+font-size: 1.75em;
 }
 blockquote {
-padding: 24px;
+padding: 1.5em;
 }
 nav#TOC {
-padding: 20px;
+padding: 1.25em;
 }
 }
 @media (max-width: 480px) {
 body {
-padding: 12px 8px;
+padding: 0.75em 0.5em;
 line-height: 1.2em;
 }
 body>blockquote {
-margin-bottom: 20px;
+margin-bottom: 1.25em;
 }
 h1 {
-font-size: 32px;
-margin-bottom: 15px;
+font-size: 2em;
+margin-bottom: 0.937em;
 }
 header h1.title {
-font-size: 32px;
+font-size: 2em;
 }
 header#title-block-header {
 padding-bottom: 0;
@@ -365,9 +353,56 @@ max-width: 100%;
 left: 0;
 position: relative;
 }
-.qualifications~ul,
-.tech_used~ul {
-gap: 6px;
+.qualifications~ul li,
+.tech_used~ul li {
+margin-right: 0.25em;
+margin-bottom: 0.25em;
+}
+}
+@page {
+margin-top: 0.0cm;
+margin-bottom: 0.4cm;
+margin-right: 0;
+margin-left: 0;
+size: A4;
+transform-origin: 0 0;
+}
+
+@page:left {
+margin-top: 1.6cm;
+margin-bottom: 0.4cm;
+margin-right: 0;
+margin-left: 0;
+size: A4;
+transform-origin: 0 0;
+}
+@media print {
+html {
+font-size: 8px;
+}
+body {
+padding: 2.5em 1.5em;
+font-size: 1.152em;
+line-height: 1.24em;
+max-width: 74.5em;
+}
+#title-block-header {
+padding-bottom: 0.1em;
+border-bottom: none;
+}
+body>table {
+margin-top: 1.1em;
+margin-bottom: 1.1em;
+}
+blockquote {
+padding: 1.5em;
+}
+
+#personal-profile {
+display: none;
+}
+nav#TOC {
+padding: 1.25em;
 }
 }
 </style>
@@ -393,7 +428,7 @@ gap: 6px;
 </tr>
 </tbody>
 </table>
-<h2 id="personal-profile">Personal Profile</h2>
+<h2 id="personal-profile"><em>Personal Profile</em></h2>
 <blockquote>
 <p>A passionate and technically rigorous Software Engineer with over 18 years of industry experience, specializing in complex software development challenges including low latency systems, compiler technologies, and embedded development. Expert in C++ with complementary Python expertise, I thrive when tackling intricate technical problems that demand innovative solutions. Currently seeking opportunities to apply my extensive experience to high-performance applications within the financial sector.</p>
 <p>A dedicated technology enthusiast who remains actively engaged with the developer community through regular participation in professional conferences and meet-ups, including the ACCU C++ developer conference. Driven by intellectual challenge rather than routine, I bring a combination of deep technical knowledge and unwavering curiosity to every project.</p>
@@ -418,9 +453,9 @@ gap: 6px;
 <li><strong>Continuous Learning and Integration</strong> Maintains an avid interest in modern C++ advancements, integrating new features introduced in language standards to enhance software development practices.</li>
 </ul>
 </blockquote>
-<h1 id="career">Career</h1>
-<h2 class="institution" id="qube-research">Qube Research</h2>
-<p>https://www.qube-rt.com/</p>
+<h1 class="life_aspect" id="career">Career</h1>
+<h2 class="institution" id="qube-research"><em>Qube Research</em></h2>
+<p><a href="https://www.qube-rt.com/">https://www.qube-rt.com/</a></p>
 <blockquote>
 <p>Sept-Nov 2024</p>
 <p>A hedge fund handling a large volume of data with low latency. A solution was required to deliver large data streams to the attention of quant analyzers with minimal latency. Contracted for my experience in C++ and wxWidgets I guided a talented team to a successful design and implementation of the framework transporting this data. Levering C++20 couroutines developed a GUI interface to reduce boilerplate and eliminate potential GUI threading issues.</p>
@@ -444,12 +479,11 @@ gap: 6px;
 <li>wxWidgets</li>
 </ul>
 </blockquote>
-<h2 class="institution" id="qa-systems">QA Systems</h2>
-<p>(Formerly Information Processing Limited)<br />
-https://www.qa-systems.com/</p>
+<h2 class="institution" id="qa-systems-formerly-information-processing-limited"><em>QA Systems</em> (Formerly Information Processing Limited)</h2>
+<p><a href="https://www.qa-systems.com/">https://www.qa-systems.com/</a></p>
 <blockquote>
 <p>2018-2024</p>
-<p>Collaborating closely with a compact team comprising five adept developers, our central objective entailed the upkeep and advancement of Cantata: the firm’s C++ testing utility. Leveraging a source-to-source transformation approach, the tool seamlessly integrates generated C++ code into clients’ codebases, facilitating test generation, instrumentation, and runtime profiling, thereby enabling compliance testing for clients to certify their projects under desired regulatory standards. Expanding upon the foundation of the EDG (Edison Design Group) compiler technology necessitated a profound comprehension of the nuances and complexities inherent in the C++ language.</p>
+<p>Collaborating closely with a compact team comprising five adept developers, our central objective entailed the upkeep and advancement of Cantata: the company’s C++ instrumentation product. Leveraging a source-to-source transformation approach, the tool seamlessly integrates generated C++ code into clients’ codebases, facilitating test generation, instrumentation, and runtime profiling, thereby enabling compliance testing for clients to certify their projects under desired regulatory standards. Expanding upon the foundation of the EDG (Edison Design Group) compiler technology necessitated a profound comprehension of the nuances and complexities inherent in the C++ language.</p>
 <h3 id="responsibilities-1" class="responsibilities">Responsibilities</h3>
 <ul>
 <li>Led the development efforts as the primary developer to implement C++20 feature support in the company’s tools, enhancing the tools’ functionality and competitiveness in the market.</li>
@@ -477,10 +511,9 @@ https://www.qa-systems.com/</p>
 <li>constexpr</li>
 </ul>
 </blockquote>
-<h2 class="institution" id="sn-systems">SN Systems</h2>
-<p>Sony PlayStation<br />
-https://playstation.com/<br />
-https://uk.linkedin.com/company/sn-systems</p>
+<h2 class="institution" id="sn-systems-sony-playstation"><em>SN Systems</em> Sony PlayStation</h2>
+<p><a href="https://playstation.com/">https://playstation.com/</a><br />
+<a href="https://uk.linkedin.com/company/sn-systems">https://uk.linkedin.com/company/sn-systems</a></p>
 <blockquote>
 <p>2014-2018</p>
 <p>In my capacity as a Software Engineer in Test, my principal responsibility revolved around ensuring that the Sony PlayStation toolchain being shipped met the desired professional standards of quality.</p>
@@ -510,10 +543,9 @@ https://uk.linkedin.com/company/sn-systems</p>
 <li>Subversion (SVN)</li>
 </ul>
 </blockquote>
-<h2 class="institution" id="imagination-technologies">Imagination Technologies</h2>
-<p>(Now MIPS Inc.)<br />
-https://imaginationtech.com/<br />
-https://mips.com/</p>
+<h2 class="institution" id="imagination-technologies-now-mips-inc."><em>Imagination Technologies</em> (Now MIPS Inc.)</h2>
+<p><a href="https://imaginationtech.com/">https://imaginationtech.com/</a><br />
+<a href="https://mips.com/">https://mips.com/</a></p>
 <blockquote>
 <p>2006-2014</p>
 <p>During my tenure at Imagination Technologies, I contributed extensively to the development of CodeScape, the company’s proprietary debugger used to target META, MIPS and PowerVR CPUs and GPUs. My responsibilities spanned a comprehensive range of technologies, from extending and enhancing the graphical user interface for optimal usability to enhancing the core functionality and facilitating network communication with hardware targets. As the product evolved, I played a pivotal role in augmenting its capabilities, transforming it into a robust tool with features reminiscent of an integrated development environment (IDE) and also featuring a terminal emulator.</p>
@@ -548,10 +580,9 @@ https://mips.com/</p>
 <li>CVS</li>
 </ul>
 </blockquote>
-<h1 id="education">Education</h1>
-<h2 class="institution" id="university-of-manchester-institute-of-science-and-technology">University of Manchester Institute of Science and Technology</h2>
-<p>UMIST<br />
-https://www.manchester.ac.uk/</p>
+<h1 class="life_aspect" id="education">Education</h1>
+<h2 class="institution" id="umist-university-of-manchester-institute-of-science-and-technology"><em>UMIST</em> University of Manchester Institute of Science and Technology</h2>
+<p><a href="https://www.manchester.ac.uk/">https://www.manchester.ac.uk/</a></p>
 <blockquote>
 <p>2002-2004</p>
 <p>I chose to pursue a course in Mathematics with Software Engineering at university because I sought a more challenging academic experience that would keep me engaged. Having already acquired skills in computing and programming, I wanted to delve deeper into a field that would push my intellectual boundaries further. Mathematics, with its intricate problem-solving and analytical aspects, presented itself as the perfect fit.</p>
@@ -560,8 +591,8 @@ https://www.manchester.ac.uk/</p>
 <li>BSc. Mathematics with Software Engineering</li>
 </ul>
 </blockquote>
-<h2 class="institution" id="eccles-college">Eccles College</h2>
-<p>https://eccles.salfordcc.ac.uk/</p>
+<h2 class="institution" id="eccles-college"><em>Eccles College</em></h2>
+<p><a href="https://eccles.salfordcc.ac.uk/">https://eccles.salfordcc.ac.uk/</a></p>
 <blockquote>
 <p>2000-2002</p>
 <h3 id="qualifications-1" class="qualifications">Qualifications</h3>

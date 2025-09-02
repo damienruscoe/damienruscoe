@@ -7,11 +7,18 @@ subtitle: "Senior C++ Software Engineer"
 | :-------: | :-------: | :-------: |
 | Bristol, United Kingdom | damien.ruscoe@gmail.com | 07473 493513  |
 
-## Personal Profile
+[comment]: |           |           |           |
+[comment]: | :-------: | :-------: | :-------: |
+[comment]: | **&#128506;** Bristol, United Kingdom | * @ * damien.ruscoe@gmail.com | **&#128382;** 07473 493513  |
 
-> A passionate and technically rigorous Software Engineer with over 18 years of industry experience, specializing in complex software development challenges including low latency systems, compiler technologies, and embedded development. Expert in C++ with complementary Python expertise, I thrive when tackling intricate technical problems that demand innovative solutions. Currently seeking opportunities to apply my extensive experience to high-performance applications within the financial sector.
+## *Personal Profile* 
+
+> A passionate and technically rigorous Software Engineer with over 18 years of industry experience, specializing in complex software development challenges including low latency systems, compiler technologies, and embedded development.
+> Expert in C++ with complementary Python expertise, I thrive when tackling intricate technical problems that demand innovative solutions.
+> Currently seeking opportunities to apply my extensive experience to high-performance applications within the financial sector.
 > 
-> A dedicated technology enthusiast who remains actively engaged with the developer community through regular participation in professional conferences and meet-ups, including the ACCU C++ developer conference. Driven by intellectual challenge rather than routine, I bring a combination of deep technical knowledge and unwavering curiosity to every project.
+> A dedicated technology enthusiast who remains actively engaged with the developer community through regular participation in professional conferences and meet-ups, including the ACCU C++ developer conference.
+> Driven by intellectual challenge rather than routine, I bring a combination of deep technical knowledge and unwavering curiosity to every project.
 > 
 > ### Core Skillset  {.skillset}
 > 
@@ -25,10 +32,10 @@ subtitle: "Senior C++ Software Engineer"
 > - **GCC Toolchain Utilization** Proficient in utilizing the GCC toolchain, with a particular emphasis on leveraging GDB as the debugger of choice.  
 > - **Continuous Learning and Integration** Maintains an avid interest in modern C++ advancements, integrating new features introduced in language standards to enhance software development practices.  
 
-# Career
+# Career {.life_aspect}
 
-## Qube Research  {.institution}
-https://www.qube-rt.com/
+## *Qube Research*  {.institution}
+[https://www.qube-rt.com/](https://www.qube-rt.com/)
 
 > Sept-Nov 2024 
 > 
@@ -53,13 +60,12 @@ https://www.qube-rt.com/
 > - C#
 > - wxWidgets
 
-## QA Systems  {.institution}
-(Formerly Information Processing Limited)  
-https://www.qa-systems.com/
+## *QA Systems* (Formerly Information Processing Limited)  {.institution}
+[https://www.qa-systems.com/](https://www.qa-systems.com/)
 
 > 2018-2024 
 > 
-> Collaborating closely with a compact team comprising five adept developers, our central objective entailed the upkeep and advancement of Cantata: the firm's C++ testing utility. Leveraging a source-to-source transformation approach, the tool seamlessly integrates generated C++ code into clients' codebases, facilitating test generation, instrumentation, and runtime profiling, thereby enabling compliance testing for clients to certify their projects under desired regulatory standards. Expanding upon the foundation of the EDG (Edison Design Group) compiler technology necessitated a profound comprehension of the nuances and complexities inherent in the C++ language.
+> Collaborating closely with a compact team comprising five adept developers, our central objective entailed the upkeep and advancement of Cantata: the company's C++ instrumentation product. Leveraging a source-to-source transformation approach, the tool seamlessly integrates generated C++ code into clients' codebases, facilitating test generation, instrumentation, and runtime profiling, thereby enabling compliance testing for clients to certify their projects under desired regulatory standards. Expanding upon the foundation of the EDG (Edison Design Group) compiler technology necessitated a profound comprehension of the nuances and complexities inherent in the C++ language.
 > 
 > ### Responsibilities {.responsibilities}
 > 
@@ -87,10 +93,9 @@ https://www.qa-systems.com/
 > - git
 > - constexpr
 
-## SN Systems  {.institution}
-Sony PlayStation  
-https://playstation.com/  
-https://uk.linkedin.com/company/sn-systems  
+## *SN Systems* Sony PlayStation  {.institution}
+[https://playstation.com/  ](https://playstation.com/)  
+[https://uk.linkedin.com/company/sn-systems  ](https://uk.linkedin.com/company/sn-systems)  
 
 > 2014-2018 
 > 
@@ -121,10 +126,9 @@ https://uk.linkedin.com/company/sn-systems
 > - VIM
 > - Subversion (SVN)
 
-## Imagination Technologies  {.institution}
-(Now MIPS Inc.)  
-https://imaginationtech.com/  
-https://mips.com/
+## *Imagination Technologies* (Now MIPS Inc.)  {.institution}
+[https://imaginationtech.com/  ](https://imaginationtech.com/)  
+[https://mips.com/](https://mips.com/)
 
 > 2006-2014 
 > 
@@ -161,11 +165,10 @@ https://mips.com/
 > - Make
 > - CVS
 
-# Education
+# Education {.life_aspect}
 
-## University of Manchester Institute of Science and Technology  {.institution}
-UMIST  
-https://www.manchester.ac.uk/
+## *UMIST* University of Manchester Institute of Science and Technology  {.institution}
+[https://www.manchester.ac.uk/](https://www.manchester.ac.uk/)
 
 > 2002-2004 
 > 
@@ -175,8 +178,8 @@ https://www.manchester.ac.uk/
 > 
 > - BSc. Mathematics with Software Engineering
 
-## Eccles College  {.institution}
-https://eccles.salfordcc.ac.uk/
+## *Eccles College*  {.institution}
+[https://eccles.salfordcc.ac.uk/](https://eccles.salfordcc.ac.uk/)
 
 > 2000-2002 
 > 
