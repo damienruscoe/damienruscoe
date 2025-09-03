@@ -3,13 +3,14 @@ title: "Damien Ruscoe"
 subtitle: "Senior C++ Software Engineer"
 ---
 
-| &#128506; | @         | &#128382; |
-| :-------: | :-------: | :-------: |
-| Bristol, United Kingdom | damien.ruscoe@gmail.com | 07473 493513  |
+|                                                                            |           |
+| -------------------------------------------------------------------------: | :-------: |
+| Bristol, United Kingdom                                                    | &#128506; |
+| [damien.ruscoe@gmail.com](mailto:damien.ruscoe@gmail.com)                  | @         |
+| [(+44) 7473-493-513](tel:07473493513)                                      | &#128382; |
+| [linkedin.com/in/damien-ruscoe](https://www.linkedin.com/in/damien-ruscoe) |           |
+| [github.com/damienruscoe](https://github.com/damienruscoe)                 |           |
 
-[comment]: |           |           |           |
-[comment]: | :-------: | :-------: | :-------: |
-[comment]: | **&#128506;** Bristol, United Kingdom | * @ * damien.ruscoe@gmail.com | **&#128382;** 07473 493513  |
 
 ## *Personal Profile* 
 
@@ -34,34 +35,35 @@ subtitle: "Senior C++ Software Engineer"
 
 # Career {.life_aspect}
 
-## *Qube Research*  {.institution}
-[https://www.qube-rt.com/](https://www.qube-rt.com/)
+## *Qube Research & Technologies*  {.institution}
+[https://qube-rt.com/](https://www.qube-rt.com/)
 
 > Sept-Nov 2024 
 > 
-> A hedge fund handling a large volume of data with low latency. A solution was required to deliver large data streams to the attention of quant analyzers with minimal latency. Contracted for my experience in C++ and wxWidgets I guided a talented team to a successful design and implementation of the framework transporting this data. Levering C++20 couroutines developed a GUI interface to reduce boilerplate and eliminate potential GUI threading issues.
+> Joined Qube Research, $28B AUM across 5 funds, to spearhead the modernization of their critical trading infrastructure.  Led the architectural transition from web-based interfaces to high-performance native desktop applications using wxWidgets, leveraging C++20 coroutines to eliminate threading complications and establish a robust foundation for next-generation trading tools.
 > 
 > ### Responsibilities {.responsibilities}
 > 
-> - Developed a modern, cross-platform GUI to efficiently monitor and manage a HFT data pipeline.
-> - Designed and implemented a scalable, low-latency data pipeline from scratch to transport data to the GUI.
-> - Leveraged C++20 coroutines to interface the GUI thread with a highly multithreaded backend.
-> - Implemented a native desktop application to view real-time instrument pricing and trading positions.
-> - Enable management of financial and monitoring compliance with financial regulations for traded assets.
-> - Designed native widgets to provide granular views on large data for monitoring of potential financial regulation violations
-> - Integrated restrictions providing visual indicating pending actions required for regulatory compliance.
-> - Led the training of financial developers in the nuances of GUI design and implementation.
+> - Architected thread-safe GUI framework using C++20 coroutines - Eliminated recurring threading synchronization crashes that plagued 6+ developers weekly by wrapping 30-40 critical RTT API calls in coroutine-based abstractions, enabling intuitive sequential code patterns while maintaining thread safety
+> - Designed scalable market data visualization system - Built backend pipeline integrating RTT APIs with live price streams, implementing virtual scrolling and on-the-fly filtering/sorting for real-time instrument pricing across multiple markets
+> - Led technical mentorship of development team - Served as wxWidgets technical lead, mentoring 6 developers directly and consulting for broader engineering organization, transitioning team from callback-based async patterns to coroutine-based solutions
+> - Delivered proof-of-concept trading applications - Developed specialized desktop tools including settlement date management with regulatory compliance visualization, drag-and-drop pivot table for live financial data, JSON editor for quant validation, and cross-platform instrument pricing dashboard
+> - Enabled cross-framework compatibility - Designed coroutine abstraction layer separating GUI logic from RTT API integration, facilitating future UI framework adoption and ensuring architectural flexibility
 > 
 > ### Technologies Used {.tech_used}
 > 
+> - Real-Time Trading Systems
+> - Market Data APIs
+> - Financial Instruments
 > - C++ 20
 > - STL
 > - Python
 > - C#
 > - wxWidgets
+> - ncurses
 
 ## *QA Systems* (Formerly Information Processing Limited)  {.institution}
-[https://www.qa-systems.com/](https://www.qa-systems.com/)
+[https://qa-systems.com/](https://www.qa-systems.com/)
 
 > 2018-2024 
 > 
@@ -168,7 +170,7 @@ subtitle: "Senior C++ Software Engineer"
 # Education {.life_aspect}
 
 ## *UMIST* University of Manchester Institute of Science and Technology  {.institution}
-[https://www.manchester.ac.uk/](https://www.manchester.ac.uk/)
+[https://manchester.ac.uk/](https://www.manchester.ac.uk/)
 
 > 2002-2004 
 > 
