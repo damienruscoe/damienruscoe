@@ -44,11 +44,11 @@ subtitle: "Senior C++ Software Engineer"
 > 
 > ### Responsibilities {.responsibilities}
 > 
-> - Architected thread-safe GUI framework using C++20 coroutines - Eliminated recurring threading synchronization crashes that plagued 6+ developers weekly by wrapping 30-40 critical RTT API calls in coroutine-based abstractions, enabling intuitive sequential code patterns while maintaining thread safety
-> - Designed scalable market data visualization system - Built backend pipeline integrating RTT APIs with live price streams, implementing virtual scrolling and on-the-fly filtering/sorting for real-time instrument pricing across multiple markets
-> - Led technical mentorship of development team - Served as wxWidgets technical lead, mentoring 6 developers directly and consulting for broader engineering organization, transitioning team from callback-based async patterns to coroutine-based solutions
-> - Delivered proof-of-concept trading applications - Developed specialized desktop tools including settlement date management with regulatory compliance visualization, drag-and-drop pivot table for live financial data, JSON editor for quant validation, and cross-platform instrument pricing dashboard
-> - Enabled cross-framework compatibility - Designed coroutine abstraction layer separating GUI logic from RTT API integration, facilitating future UI framework adoption and ensuring architectural flexibility
+> - Architected thread-safe GUI framework using C++20 coroutines: Eliminated recurring threading synchronization crashes that plagued 6+ developers weekly by wrapping 30-40 critical RTT API calls in coroutine-based abstractions, enabling intuitive sequential code patterns while maintaining thread safety
+> - Designed scalable market data visualization system: Built backend pipeline integrating RTT APIs with live price streams, implementing virtual scrolling and on-the-fly filtering/sorting for real-time instrument pricing across multiple markets
+> - Led technical mentorship of development team: Served as wxWidgets technical lead, mentoring 6 developers directly and consulting for broader engineering organization, transitioning team from callback-based async patterns to coroutine-based solutions
+> - Delivered proof-of-concept trading applications: Developed specialized desktop tools including settlement date management with regulatory compliance visualization, drag-and-drop pivot table for live financial data, JSON editor for quant validation, and cross-platform instrument pricing dashboard
+> - Enabled cross-framework compatibility: Designed coroutine abstraction layer separating GUI logic from RTT API integration, facilitating future UI framework adoption and ensuring architectural flexibility
 > 
 > ### Technologies Used {.tech_used}
 > 

@@ -107,12 +107,15 @@ font-size: 0.875em;
 color: var(--text-hyperlink);
 }
 a {
+font-size: 1em;
 color: var(--text-hyperlink);
-letter-spacing: 0.02em;
+font-style: italic;
+letter-spacing: -0.01em;
 }
 body {
 position: relative;
 }
+
 body>table {
 text-align: right;
 margin-top: 1.875em;
@@ -126,6 +129,7 @@ padding: 0.0625em;
 letter-spacing: -0.02em;
 color: var(--text-secondary);
 }
+
 body>table {
 top: 2.3em;
 right: 2.3em;
@@ -157,18 +161,22 @@ margin-top: 1.2em;
 margin-bottom: 1.0em;
 letter-spacing: -0.01em;
 }
-.institution,
-.institution+p {
-font-size: 1em;
+.institution {
+font-size: 0.8em;
 color: var(--text-secondary);
 font-style: italic;
 letter-spacing: -0.01em;
+margin-top: 1.5em;
+margin-bottom: 0.25em;
 }
-.institution~blockquote p:first-child {
-font-size: 1em;
-color: var(--text-secondary);
+.institution em {
+font-size: 1.6em;
+font-weight: 600;
+color: var(--primary-black) !important;
 font-style: italic;
+letter-spacing: -0.01em;
 }
+
 .institution~blockquote {
 position: relative;
 }
@@ -176,17 +184,9 @@ position: relative;
 top: -2.2em;
 right: 0;
 position: absolute;
-}
-.institution {
-margin-top: 1.5em;
-margin-bottom: 0.25em;
-}
-.institution em {
-font-size: 1.3em;
-font-weight: 600;
-color: var(--primary-black) !important;
+
+color: var(--text-secondary);
 font-style: italic;
-letter-spacing: -0.01em;
 }
 h3 {
 font-size: 1.125em;
@@ -209,17 +209,6 @@ border-left-color: var(--accent-blue);
 blockquote p {
 font-size: 0.937em;
 color: var(--text-primary);
-}
-blockquote p:last-child {
-margin-bottom: 0;
-}
-blockquote p strong {
-font-weight: 600;
-color: var(--primary-black);
-}
-.skillset+ul,
-.responsibilities+ul {
-padding-left: 0;
 }
 .skillset+ul li,
 .responsibilities+ul li {
@@ -471,11 +460,11 @@ padding: 1.25em;
 <p>Joined Qube Research, $28B AUM across 5 funds, to spearhead the modernization of their critical trading infrastructure. Led the architectural transition from web-based interfaces to high-performance native desktop applications using wxWidgets, leveraging C++20 coroutines to eliminate threading complications and establish a robust foundation for next-generation trading tools.</p>
 <h3 id="responsibilities" class="responsibilities">Responsibilities</h3>
 <ul>
-<li>Architected thread-safe GUI framework using C++20 coroutines - Eliminated recurring threading synchronization crashes that plagued 6+ developers weekly by wrapping 30-40 critical RTT API calls in coroutine-based abstractions, enabling intuitive sequential code patterns while maintaining thread safety</li>
-<li>Designed scalable market data visualization system - Built backend pipeline integrating RTT APIs with live price streams, implementing virtual scrolling and on-the-fly filtering/sorting for real-time instrument pricing across multiple markets</li>
-<li>Led technical mentorship of development team - Served as wxWidgets technical lead, mentoring 6 developers directly and consulting for broader engineering organization, transitioning team from callback-based async patterns to coroutine-based solutions</li>
-<li>Delivered proof-of-concept trading applications - Developed specialized desktop tools including settlement date management with regulatory compliance visualization, drag-and-drop pivot table for live financial data, JSON editor for quant validation, and cross-platform instrument pricing dashboard</li>
-<li>Enabled cross-framework compatibility - Designed coroutine abstraction layer separating GUI logic from RTT API integration, facilitating future UI framework adoption and ensuring architectural flexibility</li>
+<li>Architected thread-safe GUI framework using C++20 coroutines: Eliminated recurring threading synchronization crashes that plagued 6+ developers weekly by wrapping 30-40 critical RTT API calls in coroutine-based abstractions, enabling intuitive sequential code patterns while maintaining thread safety</li>
+<li>Designed scalable market data visualization system: Built backend pipeline integrating RTT APIs with live price streams, implementing virtual scrolling and on-the-fly filtering/sorting for real-time instrument pricing across multiple markets</li>
+<li>Led technical mentorship of development team: Served as wxWidgets technical lead, mentoring 6 developers directly and consulting for broader engineering organization, transitioning team from callback-based async patterns to coroutine-based solutions</li>
+<li>Delivered proof-of-concept trading applications: Developed specialized desktop tools including settlement date management with regulatory compliance visualization, drag-and-drop pivot table for live financial data, JSON editor for quant validation, and cross-platform instrument pricing dashboard</li>
+<li>Enabled cross-framework compatibility: Designed coroutine abstraction layer separating GUI logic from RTT API integration, facilitating future UI framework adoption and ensuring architectural flexibility</li>
 </ul>
 <h3 id="technologies-used" class="tech_used">Technologies Used</h3>
 <ul>
