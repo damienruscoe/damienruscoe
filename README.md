@@ -5,8 +5,7 @@
 **Passionate about performance optimization, cross-platform development, and multimedia software architecture**
 
 ```cpp
-class DamienRuscoe : public SeniorDeveloper,
-                     private boost::noncopyable {
+class DamienRuscoe : public SeniorDeveloper {
 public:
     std::string current_focus = "Kodi media center performance improvements";
     std::string learning = "Data Oriented Design patterns";
