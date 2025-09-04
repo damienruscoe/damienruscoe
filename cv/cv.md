@@ -40,7 +40,8 @@ subtitle: "Senior C++ Software Engineer"
 
 > Sept-Nov 2024 
 > 
-> Joined Qube Research, $28B AUM across 5 funds, to spearhead the modernization of their critical trading infrastructure.  Led the architectural transition from web-based interfaces to high-performance native desktop applications using wxWidgets, leveraging C++20 coroutines to eliminate threading complications and establish a robust foundation for next-generation trading tools.
+> Joined Qube Research, $28B AUM across 5 funds, to spearhead the modernization of their critical trading infrastructure.
+> Led the architectural transition from web-based interfaces to high-performance native desktop applications using wxWidgets, leveraging C++20 coroutines to eliminate threading complications and establish a robust foundation for next-generation trading tools.
 > 
 > ### Responsibilities {.responsibilities}
 > 
@@ -67,19 +68,23 @@ subtitle: "Senior C++ Software Engineer"
 
 > 2018-2024 
 > 
-> Collaborating closely with a compact team comprising five adept developers, our central objective entailed the upkeep and advancement of Cantata: the company's C++ instrumentation product. Leveraging a source-to-source transformation approach, the tool seamlessly integrates generated C++ code into clients' codebases, facilitating test generation, instrumentation, and runtime profiling, thereby enabling compliance testing for clients to certify their projects under desired regulatory standards. Expanding upon the foundation of the EDG (Edison Design Group) compiler technology necessitated a profound comprehension of the nuances and complexities inherent in the C++ language.
+> Joined QA Systems to enhance Cantata, a mission-critical C++ instrumentation product serving safety-critical industries (automotive, aerospace, medical, nuclear).
+> Working with a 4M LOC legacy codebase built on EDG compiler technology, systematically modernized the toolchain to C++20 while resolving hundreds of complex template and instrumentation bugs.
+> Developed custom testing infrastructure and debugging methodologies that increased personal productivity from 1-2 bug fixes per week to 3-4 fixes weekly, achieving a peak of 8 bug fixes in a single week.
 > 
 > ### Responsibilities {.responsibilities}
 > 
-> - Led the development efforts as the primary developer to implement C++20 feature support in the company's tools, enhancing the tools' functionality and competitiveness in the market.
-> - Proficiently debugged complex issues and generated templated code, demonstrating a deep understanding of templating techniques and their application in real-world codebases.
-> - Elevated the codebase to adhere to modern C++ standards, enhancing readability, maintainability, and scalability by leveraging language features and best practices.
-> - Conducted a comprehensive analysis of the codebase to collect metrics and pinpointed areas for optimization. Successfully implemented improvements, resulting in a notable 45% performance boost in key scenarios.
+> - Led comprehensive C++20 implementation: Analyzed entire C++20 specification and implemented support for concepts, ranges, coroutines, spaceship operator, constexpr/consteval/constinit, and advanced lambda captures, enabling compliance testing for modern C++ codebases
+> - Achieved 45% performance optimization: Identified and resolved critical build issue where release builds shipped without compiler optimizations (-O3), delivering immediate performance gains while establishing proper build practices
+> - Built high-performance testing infrastructure: Developed remote execution scripts reducing test cycles from 4-5 hours to 40 minutes, enabling rapid iteration across multiple platforms and compiler environments
+> - Established STL compatibility testing framework: Pioneered comprehensive STL template testing across multiple compiler environments, transforming previously "unsupported" functionality into fully validated capability for safety-critical applications
+> - Resolved hundreds of template bugs: Systematically debugged approximately 200 STL wrapping failures and template corner cases using advanced debugging techniques and creduce tooling in 20-year legacy codebase
 > 
 > ### Technologies Used {.tech_used}
 > 
 > - EDG (Edison Design Group) compiler technologies
-> - C++
+> - C++11
+> - C++20
 > - Python
 > - templates
 > - C
@@ -91,7 +96,6 @@ subtitle: "Senior C++ Software Engineer"
 > - creduce
 > - STL
 > - Linux
-> - neovim
 > - git
 > - constexpr
 
@@ -134,9 +138,14 @@ subtitle: "Senior C++ Software Engineer"
 
 > 2006-2014 
 > 
-> During my tenure at Imagination Technologies, I contributed extensively to the development of CodeScape, the company's proprietary debugger used to target META, MIPS and PowerVR CPUs and GPUs. My responsibilities spanned a comprehensive range of technologies, from extending and enhancing the graphical user interface for optimal usability to enhancing the core functionality and facilitating network communication with hardware targets. As the product evolved, I played a pivotal role in augmenting its capabilities, transforming it into a robust tool with features reminiscent of an integrated development environment (IDE) and also featuring a terminal emulator.
+> During my tenure at Imagination Technologies, I contributed extensively to the development of CodeScape, the company's proprietary debugger used to target META, MIPS and PowerVR CPUs and GPUs.
+> My responsibilities spanned a comprehensive range of technologies, from extending and enhancing the graphical user interface for optimal usability to enhancing the core functionality and facilitating network communication with hardware targets.
+> As the product evolved, I played a pivotal role in augmenting its capabilities, transforming it into a robust tool with features reminiscent of an integrated development environment (IDE) and also featuring a terminal emulator.
 > 
-> Working within a dynamic team comprising seven seasoned engineers provided me with invaluable opportunities for professional growth. Through collaborative efforts and mentorship, I refined my innate abilities and acquired proficiency in various technologies. Notably, my involvement in leading the development of the VT100 terminal emulator fueled my passion for Linux, affording me insights into the inner workings of Linux shells. This experience not only solidified my expertise but also instilled in me a deep appreciation for the intricacies of Linux systems.
+> Working within a dynamic team comprising seven seasoned engineers provided me with invaluable opportunities for professional growth.
+> Through collaborative efforts and mentorship, I refined my innate abilities and acquired proficiency in various technologies.
+> Notably, my involvement in leading the development of the VT100 terminal emulator fueled my passion for Linux, affording me insights into the inner workings of Linux shells.
+> This experience not only solidified my expertise but also instilled in me a deep appreciation for the intricacies of Linux systems.
 > 
 > ### Responsibilities {.responsibilities}
 > 
