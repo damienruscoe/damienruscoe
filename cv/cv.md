@@ -96,8 +96,8 @@ subtitle: "Senior C++ Software Engineer"
 > - constexpr
 
 ## *SN Systems* Sony PlayStation  {.institution}
-[https://playstation.com/  ](https://playstation.com/)  
-[https://uk.linkedin.com/company/sn-systems  ](https://uk.linkedin.com/company/sn-systems)  
+[https://playstation.com/](https://playstation.com/)  
+[https://uk.linkedin.com/company/sn-systems](https://uk.linkedin.com/company/sn-systems)  
 
 > 2014-2018 
 > 
@@ -129,7 +129,7 @@ subtitle: "Senior C++ Software Engineer"
 > - Subversion (SVN)
 
 ## *Imagination Technologies* (Now MIPS Inc.)  {.institution}
-[https://imaginationtech.com/  ](https://imaginationtech.com/)  
+[https://imaginationtech.com/](https://imaginationtech.com/)  
 [https://mips.com/](https://mips.com/)
 
 > 2006-2014 
