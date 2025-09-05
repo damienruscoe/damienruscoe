@@ -138,43 +138,49 @@ subtitle: "Senior C++ Software Engineer"
 
 > 2006-2014 
 > 
-> During my tenure at Imagination Technologies, I contributed extensively to the development of CodeScape, the company's proprietary debugger used to target META, MIPS and PowerVR CPUs and GPUs.
-> My responsibilities spanned a comprehensive range of technologies, from extending and enhancing the graphical user interface for optimal usability to enhancing the core functionality and facilitating network communication with hardware targets.
-> As the product evolved, I played a pivotal role in augmenting its capabilities, transforming it into a robust tool with features reminiscent of an integrated development environment (IDE) and also featuring a terminal emulator.
-> 
-> Working within a dynamic team comprising seven seasoned engineers provided me with invaluable opportunities for professional growth.
-> Through collaborative efforts and mentorship, I refined my innate abilities and acquired proficiency in various technologies.
-> Notably, my involvement in leading the development of the VT100 terminal emulator fueled my passion for Linux, affording me insights into the inner workings of Linux shells.
-> This experience not only solidified my expertise but also instilled in me a deep appreciation for the intricacies of Linux systems.
+> Joined as graduate developer on CodeScape, Imagination's flagship debugging platform for heterogeneous SoC development, serving major semiconductor manufacturers debugging META, MIPS, and PowerVR processors.
+> Advanced from junior developer to senior-level contributor within an 8-person team, mastering professional development practices including Test-Driven Development while contributing to a 6M+ line C++/Python codebase.
+> Delivered critical features including comprehensive breakpoint systems, industry-leading VT100 terminal emulator, and automated GUI testing framework that necessitated hiring 2 additional test engineers.
 > 
 > ### Responsibilities {.responsibilities}
 > 
-> - Lead developer on the VT100 terminal emulator which achieved an impressive standard of VT100 conformance.
-> - Integrated internal data structures across multiple Real-Time Operating Systems (RTOS) platforms, including MEOS, FreeRTOS, ThreadX, and Nucleus.
-> - Actively contributed to open-source projects utilized within the product, fostering collaborative development and ensuring continuous improvement of critical components.
-> - Implemented code with a test-driven methodology for enhanced code quality.
-> - Specialized in the development of breakpoint support becoming the technical expert for that area of the product.
-> - Engineered a GUI test system primarily for system testing, utilizing a bespoke networking protocol, resulting in the establishment of two additional test engineering roles, thereby fortifying the testing infrastructure and optimizing the product's quality assurance processes.
-> - Extended embedded target development focused on enabling TCP/IP to JTAG communications, enhancing debugging and communication capabilities for improved efficiency and reliability in embedded systems.
-> - Provided technical leadership and mentorship to 5 engineers within the development and quality assurance departments.
+> - Architected comprehensive breakpoint debugging system: Designed and implemented complete breakpoint infrastructure supporting hardware/software code breakpoints, data breakpoints, and advanced complex breakpoints (tuple, data watch, primed) across 20+ GUI regions including source, disassembly, memory, registers, and target tree views
+> - Developed industry-leading VT100 terminal emulator: Built near-complete VT100-compliant terminal capable of handling Linux sessions, movie streams, and complex ncurses applications (vim, btop), enabling SSH/Telnet connectivity and serving as reusable component for formatted text display across CodeScape
+> - Created automated GUI testing framework (wxTest): Pioneered comprehensive system testing infrastructure enabling programmatic control of entire debugging workflow from GUI through networking to hardware targets, generating hundreds of automated tests requiring 4+ hours execution time and leading to creation of 2 test engineer positions
+> - Built multi-threaded Find in Files system: Implemented threaded search engine with GUI synchronization supporting text/regex patterns, recursive directory scanning, find/replace operations with regex group support, and VT100-formatted results with clickable navigation to source locations
+> - Established technical mentorship and training programs: Trained 2 test engineers on wxTest framework development, mentored 3 graduate developers on core product features, and created feedback loops driving infrastructure improvements and library feature enhancements
+> - Contributed to multi-architecture debugging platform: Developed features across heterogeneous processor support including META, MIPS, PowerVR, and x86 architectures with real-time OS integration, simultaneous multi-core debugging, and hardware/emulator target connectivity
+> - Implemented cross-platform GUI components: Built configurable, dockable debugging regions using C++ backend with Python bindings, enabling drag-and-drop data manipulation between views and extensible plugin architecture for custom debugging displays
 > 
 > ### Technologies Used {.tech_used}
->
 > - C++
-> - Linux
 > - Python
-> - PowerVR
-> - MIPS
-> - META
-> - ARM
-> - Embedded Development
-> - GCC Toolchain
-> - RTOS
+> - wxWidgets
+> - Test-Driven Development (TDD)
+> - Threading Synchronization
+> - META Architecture
+> - MIPS Architecture
+> - ARM Architecture
+> - x86 Architecture
+> - PowerVR GPU
+> - Linux
+> - Real-Time Operating Systems (RTOS)
+> - ThreadX
+> - FreeRTOS
+> - MEOS
+> - VT100 Terminal Protocol
 > - Networking
-> - VIM
-> - Open Source Contributions
-> - Make
+> - SSH/Telnet
+> - JTAG/EJTAG/cJTAG
+> - QEMU
+> - FPGA
+> - Embedded Systems
+> - Debug Probes
+> - Hardware Emulators
+> - GCC
+> - Git
 > - CVS
+> - Open Source Contributions
 
 # Education {.life_aspect}
 
